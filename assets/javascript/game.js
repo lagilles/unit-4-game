@@ -35,7 +35,9 @@ $(document).ready(function() {
     $("#losses").text(losses);
     $("#winOrLose").text("");
 
-    //console.log(crystal1Num, crystal2Num, crystal3Num, crystal4Num);
+    // debugging
+
+    console.log(crystal1Num, crystal2Num, crystal3Num, crystal4Num);
   }
 
   // generate winning message
@@ -68,6 +70,8 @@ $(document).ready(function() {
   );
 
   // add crystal values together and setting winning/losing parameters
+  // also on click function to make crystal buttons work
+
   $(".crystalimg").on("click", function() {
     if (totalScore >= magicNumber) {
       return;
