@@ -13,7 +13,7 @@ $(document).ready(function() {
   // Establish random magic number and random crystal numbers
 
   function newNumbers() {
-    magicNumber = Math.floor(Math.random() * 110) + 20;
+    magicNumber = Math.floor(Math.random() * 110);
     crystal1Num = Math.ceil(Math.random() * 12);
     crystal2Num = Math.ceil(Math.random() * 12);
     crystal3Num = Math.ceil(Math.random() * 12);
